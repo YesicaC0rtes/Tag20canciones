@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Bebas+Neue&family=Bitter&display=swap');
+
+.titulo1{
+    background-color: rgb(204, 255, 0)255, 0, 0);
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+    font-family: 'Bebas Neue', sans-serif;
+}
+.titulo2{
+    font-family: 'Amatic SC', sans-serif;
+    color: whitesmoke;
+}
+.titulo3{
+    font-family: 'Bitter', serif;
+    color: white;
+}
+.contenedor{
+    display:flex;
+    justify-content: center;
+}
+button{
+    background-color: transparent;
+    color: azure;
+    font-family: 'Bitter', serif;
+}
+button:hover{
+    background-color: rgb(163, 56, 158);
+}
+body{
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.table{
+   border-collapse: collapse;
+}
+.table td{
+  border: 1px; solid;  
+  text-align: center;
+  color: white;
+}
+.table th{
+    background-color: rgb(103, 14, 141);
+    color: white;
+}
+.table td:hover{
+    background-color: rgba(54, 37, 149, 0.818);
+    color: white;
+}
+.table th:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+.td{
+    font-weight: bold;
+}
+caption{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}
